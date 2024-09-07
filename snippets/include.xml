@@ -47,7 +47,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="lab" />
 
   <!-- GMS -->
-  <project path="vendor/gms" name="rayavanindra/vendor_gms" remote="gitlab" revision="14" clone-depth="1" />
+  <project path="vendor/gms" name="rayavanindra/vendor_gms" remote="gitlab" revision="fourteen" clone-depth="1" />
   
   <!-- Hardware Repos -->
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="lab" />
