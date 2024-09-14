@@ -57,6 +57,7 @@
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="lab" />
   <project path="hardware/ril" name="hardware_ril" remote="lab" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="lab" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="lab" />
   
   <!-- CAF Repos -->
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" groups="qcom,kailua-vendor" remote="lab" />

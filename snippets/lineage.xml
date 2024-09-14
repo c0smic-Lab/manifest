@@ -49,9 +49,6 @@
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
 
-  <!-- Hardware repos -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
