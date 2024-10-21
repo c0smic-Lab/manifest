@@ -12,10 +12,12 @@
   <project path="art" name="art" remote="lab" />
   <project path="bootable/recovery" name="bootable_recovery" remote="lab" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="lab" />
+  <project path="development" name="development" remote="lab" />
   <project path="manifest" name="manifest" remote="lab" />
   <project path="bionic" name="bionic" remote="lab" />
 
   <!-- Build Repos -->
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="lab" />
   <project path="build/make" name="build" groups="pdk" remote="lab" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -69,6 +71,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lab" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="lab" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="lab" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" groups="pdk" remote="lab" />
 
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="lab" />
