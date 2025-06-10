@@ -60,7 +60,7 @@
 
   <!-- Packages Repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lab" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="lab" />
+  <!--project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="lab" /-->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="lab" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="lab" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="lab" />
