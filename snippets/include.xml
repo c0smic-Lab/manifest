@@ -32,6 +32,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Kernel -->
+  <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="lab" />
+
   <!-- External Repos -->
   <project path="external/dtc" name="external_dtc" remote="lab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="lab" />
