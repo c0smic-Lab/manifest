@@ -93,4 +93,5 @@
   <!-- Vendor Repos -->
   <project path="vendor/mica" name="vendor_mica" remote="mica" />
   <project path="vendor/gms" name="vendor_gms" remote="mica" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="mica" />
 </manifest>
